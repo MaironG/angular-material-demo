@@ -1,46 +1,19 @@
-<!-- <mat-toolbar color="primary" class="navbar">
-    <div id="logo"><a>MGM</a></div>
-    <div>
-  
-          <span ><a [routerLink]="['home']" [routerLinkActive]="['actived']">Sobre mí</a></span>
-          <span><a [routerLink]="['proyectos']" [routerLinkActive]="['actived']">Proyectos</a></span>
-          <span><a [routerLink]="['contacto']" [routerLinkActive]="['actived']">Contacto</a></span>
-      </div>
-    
-  </mat-toolbar> -->
-
-  <!-- <mat-toolbar class="black">
-    <div fxHide.gt-xs>
-        <button mat-icon-button (click)="onToggleSidenav()">
-            <mat-icon>menu</mat-icon>
-        </button>
-    </div>
-    <div class="mgm">
-         <a routerLink="home">MGM</a>
-        <ul>
-            <li><H4>MGM</H4></li>
-        </ul>
-    </div>
-    <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
-        <ul fxLayout fxLayoutGap="15px" class="navigation-items">
-            <li>
-                <a routerLink="/home">Sobre Mí</a>
-            </li>
-            <li>
-                <a routerLink="/proyectos">Proyectos</a>
-            </li>
-            <li>
-                <a routerLink="/contacto">Contacto</a>
-            </li>
-        </ul>
-    </div>
-  </mat-toolbar> -->
-
-  <header class="header">
+<header class="header">
     <div class="menu">
-        <div class="logo"></div>
-        <nav class="nav"></nav>
-        <!-- <div class="social"></div> -->
+        <div class="logo">
+            <a >M & M</a>
+        </div>
+        <nav class="nav">
+            <a [routerLink]="['/home']">
+                <span class="material-icons">assignment_ind</span>
+                Sobre Mí</a>
+            <a [routerLink]="['/contacto']">
+                <span class="material-icons">contact_phone</span>
+                Contacto</a>
+            <a [routerLink]="['/proyectos']">
+                <span class="material-icons">folder_special</span>
+                Proyectos</a>
+        </nav>
     </div>
     <div class="texto-principal">
         <h1></h1>

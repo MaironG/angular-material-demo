@@ -10,7 +10,6 @@ import { HomeComponent } from './component/home/home.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { NavbarComponent } from './component/navbar/navbar.component';
 import { SidenavListComponent } from './component/sidenav-list/sidenav-list.component';
-import { LayoutComponent } from './component/layout/layout.component';
 import { ProjectComponent } from './component/project/project.component';
 import { FooterComponent } from './component/footer/footer.component';
 
@@ -21,7 +20,6 @@ import { FooterComponent } from './component/footer/footer.component';
     ContactComponent,
     NavbarComponent,
     SidenavListComponent,
-    LayoutComponent,
     ProjectComponent,
     FooterComponent
   ],

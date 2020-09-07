@@ -1,106 +1,46 @@
-/* 
-@font-face{
-    font-family: fuente1;
-    src: url("../../../assets/fonts/fuente.otf");
-}
-@font-face{
-    font-family: fuente2;
-    src: url("../../../assets/fonts/SWEE.ttf");
+
+a{
+	text-decoration: none;
 }
 
-.navbar{
-    justify-content: space-between;
-    position: fixed;
+.header{
+    background: rgba(0, 0, 0, .1);
+    display: flex;
+    flex-flow: column nowrap;
 }
-
-span{
-    padding-right: 2rem;
-}
-
-span a{
-    text-decoration: none;
-    color: white;
-}
-
-span a:hover{
-    color: rgb(38, 247, 10);
-}
-
-span a:hover,
-.actived{
-    color: rgb(38, 247, 10);
-    text-decoration: none;
-    
-}
-
-#logo{
-    font-family: fuente2;
-    font-size: 60px;
-    padding-right: 20px; 
-}
-
-#logo a{
-    transition: color 500ms, transform 500ms;
-    margin-top: 15px;
-}
-
-#logo a:hover{
-    background: transparent;
-    transform: scale(1.50, 1.30);
-    text-decoration: transparent;
-} */
-
-@font-face{
-    font-family: fuente2;
-    src: url("../../../assets/fonts/SWEE.ttf");
-}
-
-.mgm ul li{
-    list-style-type: none;
-    transition: color 500ms, transform 500ms;
-    margin-top: 15px;
-    font-family: fuente2;
-    font-size: 60px;
-    padding-right: 20px;   
-}
-
-.mgm ul li h4{
-    transition: color 500ms, transform 500ms;
-    margin-top: 15px;
-    font-family: fuente2;
-    font-size: 60px;
-  
-}
-.mgm ul {
-    padding: 3px;
-    margin-top: 10px ;
-    
-}
-a {
-    text-decoration: none;
-    color: white;
-
-}
-a:hover, a:active{
-    color: rgb(29, 241, 10);
-
-    
-}
-.navigation-items{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-mat-toolbar{
-    border-radius: 3px;
-}
-@media(max-width: 959px){
-    mat-toolbar{
-        border-radius: 10;
+    .menu{
+        background: #2d4059;
+        display: flex;
+        flex-flow: row nowrap;
+        height: 60px;
+        align-items: center;
     }
-}
+        .logo{
+            background: #ea5455;
+            flex:1 1 auto;
+        }
+            .logo a{
+                color: #fff;
+                font-size: 30px;
+            }
+        .nav{
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+            .nav a{
+                color: #fff;
+                font-size: 20px;
+                text-transform: uppercase;
+                padding: 0 10px;
+                letter-spacing: 1px;
+            }
+                .nav a:hover{
+                    color: springgreen;
+                }
 
-.black {
-    background: #030007;
-    color: #fff;
-}
+    .texto-principal{
+        background: #f07b3f;
+    }
+        h1{
+            background: #ffd460;
+        }
