@@ -12,6 +12,7 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { SidenavListComponent } from './component/sidenav-list/sidenav-list.component';
 import { LayoutComponent } from './component/layout/layout.component';
 import { ProjectComponent } from './component/project/project.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ProjectComponent } from './component/project/project.component';
     NavbarComponent,
     SidenavListComponent,
     LayoutComponent,
-    ProjectComponent
+    ProjectComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
